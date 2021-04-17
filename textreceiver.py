@@ -18,6 +18,9 @@ def incoming_sms():
 logging.basicConfig(level=logging.DEBUG, filename='log', filemode='a+', format='%(asctime)s %(message)s')
 
 port = int(os.environ['PORT'])
+host = int(os.environ['HOST'])
+
+print(port, host)
 
 if __name__ == "__main__":
 	app.run(debug=True, port=port)
