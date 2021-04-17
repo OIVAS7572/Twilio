@@ -1,1 +1,1 @@
-web: python3 smsreceiver.py $PORT
+web: python3 textreceiver.py $PORT
