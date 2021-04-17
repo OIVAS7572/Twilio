@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route("/sms", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 
 def incoming_sms():
 	body = request.values.get('Body', None)
