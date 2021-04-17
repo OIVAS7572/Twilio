@@ -1,1 +1,1 @@
-web: main:textreceiver.py
+web: textreceiver:app
