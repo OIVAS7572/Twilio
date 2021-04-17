@@ -1,1 +1,1 @@
-worker: python3 textreceiver.py $PORT
+web: python3 textreceiver.py
