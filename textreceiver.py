@@ -11,6 +11,7 @@ def incoming_sms():
 	body = request.values.get('Body', None)
 	str(body)
 	resp = MessagingResponse()
+	print(body)
 	logging.debug(body)
 	resp.message("Hello world!")
 	return str(resp)
