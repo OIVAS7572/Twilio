@@ -15,6 +15,9 @@ def incoming_sms():
 	resp.message("Hello world!")
 	return str(resp)
 
+config.logger = Logger.new(STDOUT)
+config.logger.level = Logger::DEBUG 
+
 logging.basicConfig(level=logging.DEBUG, filename='log', filemode='a+', format='%(asctime)s %(message)s')
 
 port = int(os.environ['PORT'])
