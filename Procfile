@@ -1,1 +1,1 @@
-web: python3 textreceiver:app
+web: python3 textreceiver.py
