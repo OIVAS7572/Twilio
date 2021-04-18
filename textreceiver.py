@@ -22,4 +22,4 @@ port = int(os.environ['PORT'])
 print(port)
 
 if __name__ == "__main__":
-	app.run(debug=True, port=port)
+	app.run(debug=True, host=https://oivas.herokuapp.com/, port=port)
