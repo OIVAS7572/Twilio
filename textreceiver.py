@@ -19,7 +19,5 @@ logging.basicConfig(level=logging.DEBUG, filename='log', filemode='a+', format='
 
 port = int(os.environ['PORT'])
 
-print(port)
-
 if __name__ == "__main__":
 	app.run(debug=True, host='0.0.0.0', port=port)
